@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 19
     }
     compileSdkVersion 19
@@ -23,7 +23,7 @@ buildscript {
 
 repositories {
     flatDir {
-        dirs 'libs', 'C:\\Users\\Noah\\navx-micro\\android\\libs'
+        dirs 'libs', 'C:\\Users\\Payton\\navx-micro\\android\\libs'
     }
 }
 

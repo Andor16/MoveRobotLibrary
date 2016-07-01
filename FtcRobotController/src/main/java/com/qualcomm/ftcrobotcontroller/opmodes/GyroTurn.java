@@ -1,6 +1,5 @@
 package com.qualcomm.ftcrobotcontroller.opmodes;
 
-import com.qualcomm.robotcore.hardware.DcMotor;
 import com.kauailabs.navx.ftc.AHRS;
 
 public class GyroTurn {
@@ -40,7 +39,3 @@ public class GyroTurn {
         move.stop();
     }
 }
-
-
-
-
